@@ -1,8 +1,8 @@
 {
   "ai": {
     "provider": "openai",
-    "model": "qiniu/conatus-free",
-    "base_url": "https://api.qnaigc.com/v1",
+    "model": "openai/gpt-oss-120b",
+    "base_url": "https://api.groq.com/openai/v1",
     "api_key_env": "OPENAI_API_KEY",
     "temperature": 0.3,
     "max_tokens": 8192,
